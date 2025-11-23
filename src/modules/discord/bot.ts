@@ -62,7 +62,7 @@ client.on('ready', () => {
             client,
             constants.discord.channelIds.brutracker,
           ) as discord.TextBasedChannel,
-          `Bru is online as ${formatChacarcterWithFaction(character)}!`,
+          `@here Bru is online as ${formatChacarcterWithFaction(character)}!`,
         ),
       )
     }
